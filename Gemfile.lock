@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scat (0.0.1)
+    staart (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -27,7 +27,7 @@ DEPENDENCIES
   minitest-focus
   pry-nav
   rake
-  scat!
+  staart!
 
 BUNDLED WITH
    2.0.1

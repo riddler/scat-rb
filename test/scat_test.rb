@@ -1,7 +1,7 @@
 require "test_helper"
 
-class ScatTest < Minitest::Test
+class StaartTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Scat::VERSION
+    refute_nil ::Staart::VERSION
   end
 end

@@ -1,5 +1,5 @@
-require "scat/version"
+require "staart/version"
 
-module Scat
+module Staart
   class Error < StandardError; end
 end

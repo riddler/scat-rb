@@ -1,15 +1,15 @@
 lib = File.expand_path "lib", __dir__
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "scat/version"
+require "staart/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "scat"
-  spec.version       = Scat::VERSION
+  spec.name          = "staart"
+  spec.version       = Staart::VERSION
   spec.authors       = ["JohnnyT"]
   spec.email         = ["ubergeek3141@gmail.com"]
 
-  spec.summary       = %q{Scats in Ruby}
-  spec.homepage      = "https://github.com/riddler/scat-rb"
+  spec.summary       = %q{STAtechARTs in Ruby}
+  spec.homepage      = "https://github.com/riddler/staart-rb"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
