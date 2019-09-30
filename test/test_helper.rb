@@ -5,12 +5,29 @@ require "hashdiff"
 require "json"
 require "pathname"
 require "ox"
+require "pry"
 
 require "minitest/autorun"
 require "minitest/focus"
 require "minitest/pride"
 
 module Staart
+  module FixtureHelpers
+    def scion_path folder, filename
+      File.expand_path "./fixtures/scion/#{folder}/#{filename}", __dir__
+    end
+
+    def scion_scxml folder, file
+      filepath = scion_path folder, [file, ".scxml"].join
+      File.read filepath
+    end
+
+    def scion_json folder, file
+      filepath = scion_path folder, [file, ".js"].join
+      JSON.parse File.read filepath
+    end
+  end
+
   module ScxmlHelpers
     def test_machines folder, files
       Array(files).each do |file|

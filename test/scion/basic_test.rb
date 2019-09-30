@@ -1,8 +1,9 @@
 require "test_helper"
 
-module Scxml
+module Scion
   class BasicTest < Minitest::Test
     def test_scxml_basic_basic0
+      skip
       folder = "basic"
       file = "basic0"
       scxml_path = "./test/fixtures/scxml/#{folder}/#{file}.scxml"

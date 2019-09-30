@@ -2,6 +2,7 @@ require "test_helper"
 
 class W3cTest < Minitest::Test
   def test_3_2
+    skip
     base_path = "./test/w3c/3.2/test355"
 
     scxml_path = Pathname.new [base_path, ".scxml"].join
