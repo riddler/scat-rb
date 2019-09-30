@@ -1,0 +1,3 @@
+
+  	    At system initialization time, if the 'initial' attribute is not present, the Processor MUST enter the first state in document order.
+    
