@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
-puts "Starting console for Staart"
+puts "Starting console for Statifier"
 
 require "bundler/setup"
-require "staart"
+require "statifier"
 
 require "pry-nav"
 Pry.start
